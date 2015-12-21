@@ -1,0 +1,3 @@
+ls='ls --color=auto'
+ll='ls --color=auto -l'
+la='ls --color=auto -a'
