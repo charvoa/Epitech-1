@@ -7,16 +7,14 @@
 ** Started on  Mon Oct  7 09:27:33 2013 CHARVOZ Nicolas
 ** Last update Wed Nov 13 10:14:19 2013 Nicolas Charvoz
 */
-
-char	*my_strcpy(char *dest, char *src)
+char  *my_strcpy(char *dest, char *src)
 {
   int i;
 
   i = 0;
-  while (src[i] != '\0')
+  while (src[i])
     {
-      dest[i] = src[i];
-      i = i + 1;
+      dest[i] = src[i++];
     }
   dest[i] = '\0';
   return (dest);
